@@ -1,13 +1,9 @@
 import OctogonBackground from "./components/octogon_background";
-
+import Construction from "./styles/sections/construction";
 export default function Landing() {
   return (
-    <>
-      <section className="h-[500px]">
-      Hello
-        <OctogonBackground mapSrc="" opacity="0.5" />
-      </section>
-      
+    <>      
+      <Construction />     
     </>
   );
 }
